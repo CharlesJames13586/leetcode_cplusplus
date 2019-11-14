@@ -23,11 +23,13 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1-TwoSum.cpp">
+    <ClCompile Include="17-LetterCombinationsofaPhoneNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="20-ValidParentheses.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="temp.txt">
       <Filter>源文件</Filter>
-    </ClCompile>
+    </Text>
   </ItemGroup>
 </Project>
