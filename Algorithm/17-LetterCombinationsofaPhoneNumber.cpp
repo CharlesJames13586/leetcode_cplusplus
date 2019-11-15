@@ -45,7 +45,7 @@ public:
 		return result;
 	}
 };
-
+/*
 int main() {
 	string digits;
 	Solution solution;
@@ -62,3 +62,4 @@ int main() {
 	cout << endl;
 	return 0;
 }
+*/
