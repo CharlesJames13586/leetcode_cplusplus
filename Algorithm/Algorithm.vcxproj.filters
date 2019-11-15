@@ -23,7 +23,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="17-LetterCombinationsofaPhoneNumber.cpp">
+    <ClCompile Include="18-4Sum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -34,6 +34,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\readme.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="18-4Sum.md">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
