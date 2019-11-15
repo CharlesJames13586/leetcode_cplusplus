@@ -23,7 +23,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="18-4Sum.cpp">
+    <ClCompile Include="19-RemoveNthNodeFromEndofList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -37,6 +37,9 @@
       <Filter>资源文件</Filter>
     </None>
     <None Include="18-4Sum.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="19-RemoveNthNodeFromEndofList.md">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
