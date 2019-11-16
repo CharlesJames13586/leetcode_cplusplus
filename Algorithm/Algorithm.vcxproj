@@ -170,6 +170,9 @@
     <None Include="18-4Sum.md" />
     <None Include="19-RemoveNthNodeFromEndofList.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="18-4Sum_Resource\18-1.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
