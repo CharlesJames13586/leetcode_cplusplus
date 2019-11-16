@@ -7,10 +7,10 @@
 
 &emsp;&emsp;已完整上传的习题有：
 
-题号|cpp|md
-:-:|:-:|:-:|
-18|[18-4Sum.cpp](https://github.com/CharlesJames13586/leetcode_cplusplus/blob/master/Algorithm/18-4Sum.cpp)|[18-4Sum.md](https://github.com/CharlesJames13586/leetcode_cplusplus/blob/master/Algorithm/18-4Sum.md)
-19|[19-RemoveNthNodeFromEndofList.cpp](https://github.com/CharlesJames13586/leetcode_cplusplus/blob/master/Algorithm/19-RemoveNthNodeFromEndofList.cpp)|[19-RemoveNthNodeFromEndofList.md](https://github.com/CharlesJames13586/leetcode_cplusplus/blob/master/Algorithm/19-RemoveNthNodeFromEndofList.md)
+题号|cpp|md|更新日期
+:-:|:-:|:-:|:-:
+18|[18-4Sum.cpp](https://github.com/CharlesJames13586/leetcode_cplusplus/blob/master/Algorithm/18-4Sum.cpp)|[18-4Sum.md](https://github.com/CharlesJames13586/leetcode_cplusplus/blob/master/Algorithm/18-4Sum.md)|2019/11/14
+19|[19-RemoveNthNodeFromEndofList.cpp](https://github.com/CharlesJames13586/leetcode_cplusplus/blob/master/Algorithm/19-RemoveNthNodeFromEndofList.cpp)|[19-RemoveNthNodeFromEndofList.md](https://github.com/CharlesJames13586/leetcode_cplusplus/blob/master/Algorithm/19-RemoveNthNodeFromEndofList.md)|2019/11/15
 
 *作者：王少鹏 <br>
  邮箱:05162078@cumt.edu.cn<br>
