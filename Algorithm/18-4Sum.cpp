@@ -21,15 +21,30 @@ public:
 		
 		int left = 0, right = 0;       //左右指针
 		int temp = 0;        //保存中间要进行判断的和
-		vector<int> temps;
+		
 		//两层循环加双指针
 		for (int i = 0; i < len-3; i++) {
 			//防止重复
 			if (i > 0 && nums[i] == nums[i - 1]) {
 				continue;
 			}
+			//当前四个数的和大于目标值时，可确定已经没用符合条件的解，直接退出循环
+			if (nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] > target) {
+				break;
+			}
+			//当第一个数和后三个数的和小于目标值时，可确定本次循环没用符合条件的解，进入下一次循环
+			if (nums[i] + nums[len - 3] + nums[len - 2] + nums[len - 1] < target) {
+				continue;
+			}
 			for (int j = i + 1; j < len-2; j++) {
+				//对j的处理与对i的处理方式类似
 				if (j > i + 1 && nums[j] == nums[j-1]) {
+					continue;
+				}
+				if (nums[i] + nums[j] + nums[j + 1] + nums[j + 2] > target) {
+					break;
+				}
+				if (nums[i] + nums[len - 3] + nums[len - 2] + nums[len - 1] < target) {
 					continue;
 				}
 				left = j + 1;
@@ -38,12 +53,8 @@ public:
 					//开始判断是否和target相等
 					temp = nums[i] + nums[j] + nums[left] + nums[right];
 					if (temp == target) {
-						temps.clear();
-						temps.push_back(nums[i]);
-						temps.push_back(nums[j]);
-						temps.push_back(nums[left]);
-						temps.push_back(nums[right]);
-						result.push_back(temps);
+						result.push_back(vector<int>{nums[i], nums[j], nums[left], nums[right]});
+						//输出语句用来实时检查代码运行情况，提交时可注释掉
 						//cout << nums[i] << ',' << nums[j] << ',' << nums[left] << ',' << nums[right] << endl;
 						//两个do-while语句依旧是去重
 						//注意判断left和right的合法性，避免过度增大或减小
