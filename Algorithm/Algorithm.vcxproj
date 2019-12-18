@@ -154,7 +154,7 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="24-SwapNodesinPairs.cpp" />
+    <ClCompile Include="29-DivideTwoIntegers.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -171,6 +171,7 @@
     <None Include="18-4Sum.md" />
     <None Include="19-RemoveNthNodeFromEndofList.md" />
     <None Include="24-SwapNodesinPairs.md" />
+    <None Include="29-DivideTwoIntegers.md" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="18-4Sum_Resource\18-1.png" />

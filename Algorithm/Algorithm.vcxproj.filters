@@ -26,7 +26,7 @@
     <ClCompile Include="test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="24-SwapNodesinPairs.cpp">
+    <ClCompile Include="29-DivideTwoIntegers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,6 +46,9 @@
       <Filter>资源文件</Filter>
     </None>
     <None Include="24-SwapNodesinPairs.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="29-DivideTwoIntegers.md">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
