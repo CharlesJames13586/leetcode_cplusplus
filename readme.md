@@ -13,6 +13,12 @@
 19|[19-RemoveNthNodeFromEndofList.cpp](Algorithm/19-RemoveNthNodeFromEndofList.cpp)|[19-RemoveNthNodeFromEndofList.md](Algorithm/19-RemoveNthNodeFromEndofList.md)|2019/11/15
 24|[24-SwapNodesinPairs.cpp](Algorithm/24-SwapNodesinPairs.cpp)|[24-SwapNodesinPairs.md](Algorithm/24-SwapNodesinPairs.md)|2019/11/16
 
+&emsp;&emsp;日志
+
+时间|记录|备注
+:-:|:-:|:-:
+2019/12/18|将开发环境改为Visual Studio Code|VSC使用MinGW编译器，与VS2017不同的是会生成.exe文件
+
 *作者：王少鹏 <br>
  邮箱：05162078@cumt.edu.cn<br>
  欢迎互相研讨*
