@@ -9,9 +9,9 @@
 
 题号|cpp|md|更新日期
 :-:|:-:|:-:|:-:
-18|[18-4Sum.cpp](Algorithm/18-4Sum.cpp)|[18-4Sum.md](Algorithm/18-4Sum.md)|2019/11/14
-19|[19-RemoveNthNodeFromEndofList.cpp](Algorithm/19-RemoveNthNodeFromEndofList.cpp)|[19-RemoveNthNodeFromEndofList.md](Algorithm/19-RemoveNthNodeFromEndofList.md)|2019/11/15
-24|[24-SwapNodesinPairs.cpp](Algorithm/24-SwapNodesinPairs.cpp)|[24-SwapNodesinPairs.md](Algorithm/24-SwapNodesinPairs.md)|2019/11/16
+18|[18-4Sum.cpp](Algorithm/18-4Sum/18-4Sum.cpp)|[18-4Sum.md](Algorithm/18-4Sum/18-4Sum.md)|2019/11/14
+19|[19-RemoveNthNodeFromEndofList.cpp](Algorithm/19-RemoveNthNodeFromEndofList/19-RemoveNthNodeFromEndofList.cpp)|[19-RemoveNthNodeFromEndofList.md](Algorithm/19-RemoveNthNodeFromEndofList/19-RemoveNthNodeFromEndofList.md)|2019/11/15
+24|[24-SwapNodesinPairs.cpp](Algorithm/24-SwapNodesinPairs/24-SwapNodesinPairs.cpp)|[24-SwapNodesinPairs.md](Algorithm/24-SwapNodesinPairs/24-SwapNodesinPairs.md)|2019/11/16
 
 &emsp;&emsp;日志
 
