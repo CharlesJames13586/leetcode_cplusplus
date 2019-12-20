@@ -41,47 +41,49 @@ public:
 	}
 	//讨论区的一个优秀解法的重新编写
 	int divide(int dividend, int divisor) {
-		if (divisor == 0) {
-			//如果除数为0，直接退出
-			exit(-1);
-		}
 		if (dividend == 0) {
 			//如果商为0，直接返回0
 			return 0;
 		}
-		if (divisor == 1) {
-			//如果除数为1，直接返回被除数，还避免了dividend=2147483647，divisor=1时中间变量的溢出问题
-			return dividend;
-		}
-		//处理溢出
-		if (divisor == -1) {
-			if (dividend == INT32_MIN) {
-				return INT32_MAX;
-			}
-			else {
-				return -dividend;
-			}
+		switch (divisor){
+		    case 0:
+			    //如果除数为0，直接退出
+			    exit(-1);
+		    case 1:
+		        //如果除数为1，直接返回被除数，还避免了dividend=-2147483648，divisor=1时的情况
+			    return dividend;
+	        case -1:
+		        //除数为-1的情况
+			    if (dividend == INT32_MIN) {
+				    return INT32_MAX; 
+			    } else {
+				    return -dividend;
+			    }
 		}
 		
-		int quotient = 0;    //商
+		long long quotient = 0;   //商，使用long类型避免运算过程中的溢出现象
 		int sign = 1;        //商的符号，1代表(+)，-1代表(-)
 		if (dividend > 0 && divisor < 0 || dividend < 0 && divisor>0) {
 			//如果被除数和除数异号，商的符号为负
 			sign = -1;
 		}
 		//一般情况
-		int dividend_abs = abs(dividend), divisor_abs = abs(divisor);          //取被除数和除数的绝对值运算
+		long long dividend_abs = abs((long long)dividend), divisor_abs = abs((long long)divisor);          //取被除数和除数的绝对值运算
 		while (dividend_abs >= divisor_abs) {    //当被除数大于等于除数
-			int temp = divisor_abs, m = 1;       //temp暂存除数的绝对值，m暂存商的部分值
+			long long temp = divisor_abs, m = 1;       //temp暂存除数的绝对值，m暂存商的部分值
 			while (temp << 1 <= dividend_abs) {  //除数乘2(左移一位)后小于等于被除数时
 				//temp <<= 1;
 				//m <<= 1;
 				temp = temp << 1;      //除数乘2
 				m = m << 1;  //m乘2
-				cout << temp << ' ' << m << endl;
+				//cout << temp << ' ' << m << endl;
 			}
 			dividend_abs = dividend_abs - temp;  //被除数减除数
 			quotient = quotient + m;   //商加上暂存的商
+		}
+		if (quotient > INT32_MAX) {
+			quotient = INT32_MAX;
+			//注：商=INT32_MIN的情况已在除数为1时返回，因此此处不会存在这种情况
 		}
 
 		//return quotient * sign;      题面要求不能使用乘法(不过leetcoe该题并未检测此种情况)
