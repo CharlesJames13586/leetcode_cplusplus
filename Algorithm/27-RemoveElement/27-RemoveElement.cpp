@@ -1,4 +1,3 @@
-#include "pch.h"
 #include <iostream>
 #include <vector>
 
@@ -6,19 +5,19 @@ using namespace std;
 
 class Solution {
 public:
-	int removeElement(vector<int>& nums, int val) {
-		int len = nums.size();
-		int index = 0;
-		for (int i = 0; i < len; i++) {
-			if (nums[i] != val) {
-				if (i != index) {
-					nums[index] = nums[i];
-				}
-				index++;
-			}
-		}
-		return index;
-	}
+    int removeElement(vector<int>& nums, int val) {
+        int len = nums.size();
+        int index = 0;
+        for (int i = 0; i < len; i++) {
+            if (nums[i] != val) {
+                if (i != index) {
+                    nums[index] = nums[i];
+                }
+                index++;
+            }
+        }
+        return index;
+    }
 };
 
 
@@ -59,6 +58,6 @@ int len = removeElement(nums, val);
 // any modification to nums in your function would be known by the caller.
 // using the length returned by your function, it prints the first len elements.
 for (int i = 0; i < len; i++) {
-	print(nums[i]);
+    print(nums[i]);
 }
 */
