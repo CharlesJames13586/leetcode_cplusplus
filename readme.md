@@ -12,7 +12,7 @@
 18|[18-4Sum.cpp](Algorithm/18-4Sum/18-4Sum.cpp)|[18-4Sum.md](Algorithm/18-4Sum/18-4Sum.md)|2019/11/14
 19|[19-RemoveNthNodeFromEndofList.cpp](Algorithm/19-RemoveNthNodeFromEndofList/19-RemoveNthNodeFromEndofList.cpp)|[19-RemoveNthNodeFromEndofList.md](Algorithm/19-RemoveNthNodeFromEndofList/19-RemoveNthNodeFromEndofList.md)|2019/11/15
 24|[24-SwapNodesinPairs.cpp](Algorithm/24-SwapNodesinPairs/24-SwapNodesinPairs.cpp)|[24-SwapNodesinPairs.md](Algorithm/24-SwapNodesinPairs/24-SwapNodesinPairs.md)|2019/11/16
-29|[29-DivideTwoIntegers.cpp](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.cpp)|[29-DivideTwoIntegers.md](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.md)
+29|[29-DivideTwoIntegers.cpp](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.cpp)|[29-DivideTwoIntegers.md](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.md)|2019/12/20
 
 &emsp;&emsp;»’÷æ
 
