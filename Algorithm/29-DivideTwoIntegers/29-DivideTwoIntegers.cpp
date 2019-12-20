@@ -39,7 +39,7 @@ public:
 		}
 		return quotient;
 	}
-	//讨论区的一个优秀解法的重新编写
+	//讨论区的一个优秀解法的重新编写。
 	int divide(int dividend, int divisor) {
 		if (dividend == 0) {
 			//如果商为0，直接返回0
