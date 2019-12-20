@@ -15,7 +15,7 @@ public:
 			return 0;
 		}
 		int quotient = 0;
-		int sign = 1;    //商的符号，1代表(+)，-1代表(-)
+		int sign = 1;        //商的符号，1代表(+)，-1代表(-)
 		if (dividend > 0 && divisor < 0 || dividend < 0 && divisor>0) {
 			//如果被除数和除数异号，商的符号为负
 			sign = -1;
@@ -61,7 +61,7 @@ public:
 			    }
 		}
 		
-		long long quotient = 0;   //商，使用long类型避免运算过程中的溢出现象
+		long long quotient = 0;        //商，使用long类型避免运算过程中的溢出现象
 		int sign = 1;        //商的符号，1代表(+)，-1代表(-)
 		if (dividend > 0 && divisor < 0 || dividend < 0 && divisor>0) {
 			//如果被除数和除数异号，商的符号为负
@@ -70,7 +70,7 @@ public:
 		//一般情况
 		long long dividend_abs = abs((long long)dividend), divisor_abs = abs((long long)divisor);          //取被除数和除数的绝对值运算
 		while (dividend_abs >= divisor_abs) {    //当被除数大于等于除数
-			long long temp = divisor_abs, m = 1;       //temp暂存除数的绝对值，m暂存商的部分值
+			long long temp = divisor_abs, m = 1; //temp暂存除数的绝对值，m暂存商的部分值
 			while (temp << 1 <= dividend_abs) {  //除数乘2(左移一位)后小于等于被除数时
 				//temp <<= 1;
 				//m <<= 1;
