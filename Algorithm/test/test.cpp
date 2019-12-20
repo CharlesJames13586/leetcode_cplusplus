@@ -5,6 +5,8 @@
 using namespace std;
 
 int main(){
+    //cout<<"中文"<<endl;
     cout<<"Hello Word!"<<endl;
+    cout<<INT32_MAX<<endl;
     return 0;
 }
