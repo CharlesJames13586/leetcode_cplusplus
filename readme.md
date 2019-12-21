@@ -13,6 +13,7 @@
 19|[19-RemoveNthNodeFromEndofList.cpp](Algorithm/19-RemoveNthNodeFromEndofList/19-RemoveNthNodeFromEndofList.cpp)|[19-RemoveNthNodeFromEndofList.md](Algorithm/19-RemoveNthNodeFromEndofList/19-RemoveNthNodeFromEndofList.md)|2019/11/15
 24|[24-SwapNodesinPairs.cpp](Algorithm/24-SwapNodesinPairs/24-SwapNodesinPairs.cpp)|[24-SwapNodesinPairs.md](Algorithm/24-SwapNodesinPairs/24-SwapNodesinPairs.md)|2019/11/16
 29|[29-DivideTwoIntegers.cpp](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.cpp)|[29-DivideTwoIntegers.md](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.md)|2019/12/20
+31|[31-NextPermutation.cpp](Algorithm/31-NextPermutation/31-NextPermutation.cpp)|[31-NextPermutation.md](Algorithm/31-NextPermutation/31-NextPermutation.md)|2019/12/21
 36|[36-ValidSudoku.cpp](Algorithm/36-ValidSudoku/36-ValidSudoku.cpp)|[36-ValidSudoku.md](Algorithm/36-ValidSudoku/36-ValidSudoku.md)|2019/12/20
 
 &emsp;&emsp;»’÷æ
