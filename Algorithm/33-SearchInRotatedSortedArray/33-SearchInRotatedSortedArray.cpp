@@ -61,13 +61,10 @@ public:
 int main(){
     vector<int> nums = {1, 2, 3, 4, 5, 6, 7};
     int target = 7;
-    
     for(int i = 0; i < 7; i++){
         target = nums[i];
         Solution s;
         cout << s.search(nums, target) << " ";
     }
-    
-    // Solution s;
-    // cout << s.search(nums, target) << " ";
+    return 0;
 }
