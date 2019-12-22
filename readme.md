@@ -14,6 +14,7 @@
 24|[24-SwapNodesinPairs.cpp](Algorithm/24-SwapNodesinPairs/24-SwapNodesinPairs.cpp)|[24-SwapNodesinPairs.md](Algorithm/24-SwapNodesinPairs/24-SwapNodesinPairs.md)|2019/11/16
 29|[29-DivideTwoIntegers.cpp](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.cpp)|[29-DivideTwoIntegers.md](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.md)|2019/12/20
 31|[31-NextPermutation.cpp](Algorithm/31-NextPermutation/31-NextPermutation.cpp)|[31-NextPermutation.md](Algorithm/31-NextPermutation/31-NextPermutation.md)|2019/12/21
+33|[33-SearchInRotatedSortedArray.cpp](Algorithm/33-SearchInRotatedSortedArray/33-SearchInRotatedSortedArray.cpp)|[33-SearchInRotatedSortedArray.md](Algorithm/33-SearchInRotatedSortedArray/33-SearchInRotatedSortedArray.md)|2019/12/22
 36|[36-ValidSudoku.cpp](Algorithm/36-ValidSudoku/36-ValidSudoku.cpp)|[36-ValidSudoku.md](Algorithm/36-ValidSudoku/36-ValidSudoku.md)|2019/12/20
 
 &emsp;&emsp;»’÷æ
