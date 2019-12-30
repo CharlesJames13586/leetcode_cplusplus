@@ -16,7 +16,7 @@
 31|[31-NextPermutation.cpp](Algorithm/31-NextPermutation/31-NextPermutation.cpp)|[31-NextPermutation.md](Algorithm/31-NextPermutation/31-NextPermutation.md)|2019/12/21
 33|[33-SearchInRotatedSortedArray.cpp](Algorithm/33-SearchInRotatedSortedArray/33-SearchInRotatedSortedArray.cpp)|[33-SearchInRotatedSortedArray.md](Algorithm/33-SearchInRotatedSortedArray/33-SearchInRotatedSortedArray.md)|2019/12/22
 36|[36-ValidSudoku.cpp](Algorithm/36-ValidSudoku/36-ValidSudoku.cpp)|[36-ValidSudoku.md](Algorithm/36-ValidSudoku/36-ValidSudoku.md)|2019/12/20
-37|[37-SodukuSolver.cpp](Algorithm\37-SodokuSolver\37-SodukuSolver.cpp)|[37-SodukuSolver.md](Algorithm\37-SodokuSolver\37-SodukuSolver.md)|2019/12/30
+37|[37-SodukuSolver.cpp](Algorithm/37-SodokuSolver/37-SodukuSolver.cpp)|[37-SodukuSolver.md](Algorithm/37-SodokuSolver/37-SodukuSolver.md)|2019/12/30
 
 &emsp;&emsp;»’÷æ
 
