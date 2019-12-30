@@ -56,6 +56,6 @@
 
   &emsp;&emsp;这种暴力求解的方法十分简洁易懂，由于数独问题的规模是一定的(9\*9)，所以这种方法不会超时。但在提交后发现运行20-24ms，只超过了27%的提交。不过空间击败了100%的提交。
 
-  ![提交情况截图](37-SodokuSolverResource\submissions.png)
+  ![提交情况截图](37-SodokuSolverResource/submissions.png)
 
 
