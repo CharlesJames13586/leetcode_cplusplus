@@ -15,6 +15,7 @@
 29|[29-DivideTwoIntegers.cpp](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.cpp)|[29-DivideTwoIntegers.md](Algorithm/29-DivideTwoIntegers/29-DivideTwoIntegers.md)|2019/12/20
 31|[31-NextPermutation.cpp](Algorithm/31-NextPermutation/31-NextPermutation.cpp)|[31-NextPermutation.md](Algorithm/31-NextPermutation/31-NextPermutation.md)|2019/12/21
 33|[33-SearchInRotatedSortedArray.cpp](Algorithm/33-SearchInRotatedSortedArray/33-SearchInRotatedSortedArray.cpp)|[33-SearchInRotatedSortedArray.md](Algorithm/33-SearchInRotatedSortedArray/33-SearchInRotatedSortedArray.md)|2019/12/22
+34|[34-FindFirstAndLastPositionOfElementInSortedArray.cpp](Algorithm/34-FindFirstAndLastPositionOfElementInSortedArray/34-FindFirstAndLastPositionOfElementInSortedArray.cpp)||2019/12/30
 36|[36-ValidSudoku.cpp](Algorithm/36-ValidSudoku/36-ValidSudoku.cpp)|[36-ValidSudoku.md](Algorithm/36-ValidSudoku/36-ValidSudoku.md)|2019/12/20
 37|[37-SodukuSolver.cpp](Algorithm/37-SodokuSolver/37-SodukuSolver.cpp)|[37-SodukuSolver.md](Algorithm/37-SodokuSolver/37-SodukuSolver.md)|2019/12/30
 
