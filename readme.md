@@ -18,6 +18,7 @@
 34|[34-FindFirstAndLastPositionOfElementInSortedArray.cpp](Algorithm/34-FindFirstAndLastPositionOfElementInSortedArray/34-FindFirstAndLastPositionOfElementInSortedArray.cpp)||2019/12/30
 36|[36-ValidSudoku.cpp](Algorithm/36-ValidSudoku/36-ValidSudoku.cpp)|[36-ValidSudoku.md](Algorithm/36-ValidSudoku/36-ValidSudoku.md)|2019/12/20
 37|[37-SodukuSolver.cpp](Algorithm/37-SodokuSolver/37-SodukuSolver.cpp)|[37-SodukuSolver.md](Algorithm/37-SodokuSolver/37-SodukuSolver.md)|2019/12/30
+38|[38-CountAndSay.cpp](Algorithm/38-CountAndSay/38-CountAndSay.cpp)|[38-CountAndSay.md](Algorithm/38-CountAndSay/38-CountAndSay.md)|2019/12/31
 
 &emsp;&emsp;»’÷æ
 
